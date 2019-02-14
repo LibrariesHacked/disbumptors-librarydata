@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Disbumptors on Twitter #LibraryData">
+    <title>twitter | #librarydata</title>
+    <link href="node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" />
+    <link href="node_modules/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" />
+    <link href="node_modules/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="node_modules/bootswatch/dist/simplex/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main container">
+        <h2>Library Disrumptors</h2>
+        <p>definition: to cause disorder or turmoil. to do no good.</p>
+        <div id="div_loading" class="row">
+            <p>Loading data...</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <canvas id="cht_mentions" height="200"></canvas>
+            </div>
+            <div class="col-lg-4">
+                <canvas id="cht_hashtags" height="200"></canvas>
+            </div>
+            <div class="col-lg-4">
+                <canvas id="cht_joined" height="200"></canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <table id="tbl-twitter" class="table table-striped table-bordered" style="width:100%"></table>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/core-js/client/core.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="node_modules/moment/min/moment.min.js"></script>
+    <script src="js/twitter-text-2.0.2.js"></script>
+    <script src="node_modules/jszip/dist/jszip.min.js"></script>
+    <script src="node_modules/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
+    <script src="node_modules/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="node_modules/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="node_modules/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+    <script src="node_modules/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="node_modules/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    <script src="js/twitter.js"></script>
+    <script src="js/site.js"></script>
+</body>
+
+</html>
