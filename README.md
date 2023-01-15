@@ -36,7 +36,7 @@ This site is static HTML and can be deployed directly onto a live server.
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE.md) for details
+This project is licensed under the [MIT License](LICENSE.md)
 
 ## Acknowledgments
 
